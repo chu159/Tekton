@@ -1,7 +1,12 @@
-package TektonTest
+package main
 
-import "fmt"
+import (
+	"fmt"
+	"time"
+)
 
 func main() {
-	fmt.Println("hello world")
+	fmt.Println("Say Hello")
+	time.Sleep(time.Second * 15)
+	panic("hello world, I panic")
 }
